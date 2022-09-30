@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>street cafe</title>
+    <style>
+     body{                                                                                                                   /* 2 step*/
+  font-family: baloo bhai,cursive;
+    color: white;
+  background-color: rgb(255, 204, 0);
+      margin:0px;
+      padding : 0px
+}
+h1{
+    font-size: 40px;
+    margin-top: 7%;
+    margin-left: 45%;
+}
+h2{
+    font-size: 40px ;
+    margin-top: 4%;
+    margin-left: 45%;
+}
+.lii{
+    margin-left: 45%;
+}
+.left{                                                                              /*give css to left,mid,right (4 step)*/
+   display: inline-block;
+   position: absolute;
+    left:20px; top: 20px;
+    font-size: x-large;
+}
+      .centre{                                                                            /*give css to left,mid,right (4 step)*/
+  display: block;
+  width:40% ;
+  margin-left: 62%;
+    margin-top: 0.5%;
+font-size: xx-large;
+}
+.right{                                                                              /*give css to left,mid,right (4 step)*/
+    display: inline-block;
+    position: absolute;
+    right: 30px; top: 20px;
+    font-size: medium;
+}
+.navbar{
+     display:inline-block;
+     font-size: 15px;
+}
+.navbar li{
+    display: inline-block;
+
+
+}   
+.left img{
+   width: 150px ;                                      /* filter:invert is used for changing img color*/
+}
+.navbar li a{
+color:white;
+text-decoration: none;
+padding: 34px 24px;
+}
+.navbar li :hover, .navbar li a:active{
+color:rgb(174, 160, 0);
+text-decoration: underlin;
+
+}
+.btn{
+    border-color: rgb(249, 210, 12);
+    font-size: 15px;
+    border-radius: 7px;
+ margin:0px 10px;
+color:white;
+background-color:#dba52c;
+padding: 2px 8px;
+}
+.btn:hover{
+  color: rgb(250, 254, 20);
+
+}   
+
+    </style>
+</head>
+<body>
+    <header class="header">                                                                                         <!--3 step-->
+        <!-- left box for logo -->
+       <div class="left">                                                                                                         
+          <img src="https://tse3.mm.bing.net/th?id=OIP.3VuWKPF-Dvdx8B1l2r6ipgHaDa&pid=Api&P=0" alt="">         <!-- img is used for giving logo to website-->
+        <div>street cafe</div>
+       </div>
+
+        <!-- centre box for navbar -->
+      <div class="centre">                                                                 
+        <ul class="navbar">                                                                <!-- 5 step-->
+            <li><a href="#" class="active">cart</a></li>                                   <!--active is used for giving color to button-->
+            <li><a href="#" class="active">about us</a></li>
+            <li><a href="#" class="active">summary</a></li>
+        </ul>
+      </div>
+
+
+      <!-- right box for button -->
+      <div class="right">
+     <button class="btn">track order</button><button class="btn">CALL </button>
+
+      </div>
+    </header>
+   <div>
+    <img src="images/My project-1 (1).png" alt="" style="    position: absolute;
+    left: 64%;
+    top: 20%;
+    height: 530px;">
+    <img src="images/My project-1.png" alt="" style="    position: absolute;
+    left: 10%;
+    top: 20%;
+    height: 530px;">
+
+      <h1> snacks</h1>
+    <ul class="lii">
+       <li>nachos</li>
+       <li>chilli potato</li>
+       <li>mojito</li>
+       <li>pizza</li>
+       <li>cakes</li>
+    </ul>
+       
+    <h2>drinks</h2>
+    <ul class="lii">
+        <li>shakes</li>
+        <li>tea</li>
+        <li>coffe</li>
+        <li>pepsi</li>
+        <li>cola</li>
+    </ul>
+    </div>
+</body>
+</html>
